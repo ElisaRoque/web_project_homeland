@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header__image {
+  width: 254px;
+  height: 70px;
+  margin-top: 34px;
+}

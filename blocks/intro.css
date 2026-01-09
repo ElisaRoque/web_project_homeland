@@ -1,0 +1,67 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  max-width: 830px;
+}
+
+.intro__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.intro__quote {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 738px;
+  margin-bottom: 32px;
+}
+span.intro__quote-name {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+.intro__text {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 722px;
+  margin-bottom: 92px;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: 0 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    margin: 0 24px 88px;
+  }
+  .intro__text {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    margin: 0 16px 64px;
+    max-width: 288px;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  .intro__quote {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .intro__text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+}

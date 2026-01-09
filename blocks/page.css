@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  background-color: #2a2c2f;
+}
