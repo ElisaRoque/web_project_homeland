@@ -12,7 +12,7 @@
   margin-top: 0;
   margin-bottom: 40px;
 }
-.quote {
+.intro__quote {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -20,7 +20,7 @@
   max-width: 738px;
   margin-bottom: 32px;
 }
-.quote__author {
+.intro__quote-name {
   display: flex;
   justify-content: flex-end;
   padding-top: 10px;
