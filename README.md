@@ -1,8 +1,6 @@
-# Nome do Projeto
+# De Pátria para Pátria
 
-De Pátria para Pátria
-
-## Descrição do projeto
+## Descrição
 
 Este projeto consiste no desenvolvimento de uma página web responsiva que mostra as cidades natais de alguns funcionários da TripleTen.
 A página exibe informações organizadas em 2 seções, uma sessção introdutória e um texto curto sobre as localidades.
